@@ -1,0 +1,10 @@
+<div class="col-md-4" *ngFor="let servicio of servicios">
+    <div class="info-icon" >
+        <div class="icon text-danger">
+            <i class="{{ servicio.icono }}"></i>
+        </div>
+        <h3>{{ servicio.titulo }}</h3>
+        <p class="description">{{ servicio.descripcion }}</p>
+    </div>
+</div>
+
