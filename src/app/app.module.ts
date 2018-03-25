@@ -4,9 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { HeaderComponent } from './header/header.component';
-import { ServiciosComponent } from './servicios/servicios.component';
-import { ListaServiciosComponent } from './servicios/lista-servicios/lista-servicios.component';
-import { ServicioComponent } from './servicios/lista-servicios/servicio.component';
+import { ServiciosComponent } from './index/servicios/servicios.component';
+import { ListaServiciosComponent } from './index/servicios/lista-servicios/lista-servicios.component';
+import { ServicioComponent } from './index/servicios/lista-servicios/servicio.component';
+import { EquipoComponent } from './equipo/equipo.component';
+import { FooterComponent } from './footer/footer.component';
+import { AppRoutingModule } from './/app-routing.module';
+import { IndexComponent } from './index/index.component';
+import { ProductosComponent } from './productos/productos.component';
+import { NuestrosValoresComponent } from './nuestros-valores/nuestros-valores.component';
 
 
 @NgModule({
@@ -16,10 +22,16 @@ import { ServicioComponent } from './servicios/lista-servicios/servicio.componen
     HeaderComponent,
     ServiciosComponent,
     ListaServiciosComponent,
-    ServicioComponent
+    ServicioComponent,
+    EquipoComponent,
+    FooterComponent,
+    IndexComponent,
+    ProductosComponent,
+    NuestrosValoresComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

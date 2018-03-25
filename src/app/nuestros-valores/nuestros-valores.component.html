@@ -1,0 +1,16 @@
+
+
+
+<div class="nuestros-valores">
+     <div class="col {{ clase }}" *ngFor="let clase of clases">
+       
+       <!-- src="assets/img/nuestros-valores/{{ clase }}.jpg" -->
+       <div class="valores" *ngIf=" clase == 'text' ">
+            <h1>Inclusión</h1>
+            <p>
+              Trabajamos con madres cabeza de hogar, 
+              victimas del conflicto y personas que llevan cualquier tipo de discapacidad fisica.
+            </p>
+       </div>
+     </div>
+</div>

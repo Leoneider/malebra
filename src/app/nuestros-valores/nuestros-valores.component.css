@@ -1,0 +1,67 @@
+.nuestros-valores{
+    background: #000;
+    /* height: 20rem; */
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+
+.col{
+    background: rgb(4, 24, 21);
+    width: 100%;
+    /* height: 280px; */
+    
+    /* height: 30rem; */
+    /* display: inline-flex; */
+}
+
+
+.clase1{
+    background-image: url(/assets/img/nuestros-valores/madre.jpg);
+    background-size: cover;
+    background-position-x: -10rem;
+}
+
+
+
+.text{
+    min-width: 274px;;
+  
+}
+/* .clase2{
+    
+}
+.clase3{
+    
+}
+.clase4{
+    
+}
+.clase5{
+    
+}
+.clase6{
+    
+}
+.clase7{
+    
+} */
+
+
+h1{
+    color: #247b74;
+    text-align: center;
+    font-weight: 100;
+    
+}
+
+
+p{
+    color: rgb(213, 213, 213);
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    padding: 1rem;
+    text-align: center;
+} 
