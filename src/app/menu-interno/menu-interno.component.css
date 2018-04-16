@@ -1,0 +1,13 @@
+.menu{
+    position: fixed;
+    background-color: mediumseagreen;
+    width: 100%;
+    height: 46px;
+    
+}
+
+.bg-inverse{
+    background-color: mediumseagreen;
+}
+
+

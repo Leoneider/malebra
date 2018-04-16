@@ -1,0 +1,21 @@
+.title{
+    color: seagreen;
+    text-align: center;
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 90%;
+}
+
+
+
+.patrocinadores{
+    display: flex;
+    justify-content: center;
+}
+
+.logos{
+     /* width: 100%;
+    background: #FFF; */
+    margin: 2rem 2rem;  
+    
+}

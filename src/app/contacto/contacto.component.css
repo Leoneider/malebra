@@ -1,0 +1,47 @@
+label{
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.contactoImagen{
+    background-image: url(/assets/img/MalebraComputadores3.jpg);
+    width: 42rem;
+    height: 30rem;
+    /* background-attachment: fixed; */
+    background-size: 42rem;
+    
+}
+
+.form-contacto{
+    width: 50%;
+    margin-left: 2rem;
+}
+
+
+
+.btn-danger {
+    color: #fff;
+    background-color: none;
+    width: 20rem;
+    height: 5rem;
+    font-weight: 600;
+    font-size: 2rem;
+    border-color: #009D84;
+  
+}
+
+.title{
+    color: seagreen;
+    text-align: center;
+    font-weight: 300;
+    font-size: 44px;
+    margin-bottom: 3rem;
+    line-height: 90%;
+}

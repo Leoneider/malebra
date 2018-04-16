@@ -1,0 +1,48 @@
+.container{
+    background: #fff;
+}
+
+
+h1{
+    color: seagreen;
+}
+
+.productos{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    
+    /* height: 300px; */
+   
+
+}
+
+.producto{
+    width: 100%;
+    margin: 0 15px;
+    padding-top: 15px;
+   
+    border: 1px solid #CECEDA;
+    text-align: center;
+}
+
+span{
+    color: darkred;
+   font-size: 3rem;
+   font-weight: 600;
+   background: #ebebeb;
+   display: block;
+    
+}
+
+.verde{
+    color: seagreen;
+}
+
+.title{
+    color: seagreen;
+    text-align: center;
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 90%;
+}

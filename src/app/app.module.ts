@@ -13,6 +13,10 @@ import { AppRoutingModule } from './/app-routing.module';
 import { IndexComponent } from './index/index.component';
 import { ProductosComponent } from './productos/productos.component';
 import { NuestrosValoresComponent } from './nuestros-valores/nuestros-valores.component';
+import { PatrocinadoresComponent } from './patrocinadores/patrocinadores.component';
+import { ContactoComponent } from './contacto/contacto.component';
+import { MenuInternoComponent } from './menu-interno/menu-interno.component';
+import { Index2Component } from './index2/index2.component';
 
 
 @NgModule({
@@ -27,7 +31,11 @@ import { NuestrosValoresComponent } from './nuestros-valores/nuestros-valores.co
     FooterComponent,
     IndexComponent,
     ProductosComponent,
-    NuestrosValoresComponent
+    NuestrosValoresComponent,
+    PatrocinadoresComponent,
+    ContactoComponent,
+    MenuInternoComponent,
+    Index2Component
   ],
   imports: [
     BrowserModule,

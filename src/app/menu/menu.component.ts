@@ -7,9 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
   title = 'Malebra LTDA'
+  
   constructor() { }
 
   ngOnInit() {
+    console.log($(window).scrollTop());
+    
+    // MANEJA EL SCROLL DEL MENU
+    $(window).scroll(function() {
+     let height = $(window).scrollTop();
+      if (height > 40) { 
+          $("#menu").addClass("bg-inverse");
+      } else {
+          $("#menu").removeClass("bg-inverse");
+      }
+    });
+  
+    
   }
 
 }

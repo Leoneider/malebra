@@ -198,11 +198,11 @@ body {
 /*      Just for presentation        */
 
 .title{
-    color: #506A85;
+    color: seagreen;
     text-align: center;
     font-weight: 300;
     font-size: 44px;
-    margin-bottom: 90px;
+    /* margin-bottom: 90px; */
     line-height: 90%;
 }
 .title small{
@@ -293,27 +293,4 @@ body {
 }
 .navbar-default .navbar-brand-logo .brand{
     color: #555;
-}
-
-
-/*       Fix bug for IE      */
-
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .front, .back{
-        -ms-backface-visibility: visible;
-        backface-visibility: visible;
-    }
-
-    .back {
-        visibility: hidden;
-        -ms-transition: all 0.2s cubic-bezier(.92,.01,.83,.67);
-    }
-    .front{
-        z-index: 4;
-    }
-    .card-container:not(.manual-flip):hover .back,
-    .card-container.manual-flip.hover .back{
-        z-index: 5;
-        visibility: visible;
-    }
 }

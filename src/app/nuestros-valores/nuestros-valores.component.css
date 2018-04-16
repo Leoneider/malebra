@@ -8,6 +8,12 @@
     
 }
 
+
+
+
+
+
+
 .col{
     background: rgb(4, 24, 21);
     width: 100%;
@@ -21,7 +27,7 @@
 .clase1{
     background-image: url(/assets/img/nuestros-valores/madre.jpg);
     background-size: cover;
-    background-position-x: -10rem;
+    background-position-x: -7rem;
 }
 
 
@@ -30,22 +36,36 @@
     min-width: 274px;;
   
 }
-/* .clase2{
+.clase2{
+    background-image: url(/assets/img/nuestros-valores/confianza.jpeg);
+    background-size: cover;
+    background-position-x: -5rem;
     
 }
+
 .clase3{
-    
+
+        background-image: url(/assets/img/nuestros-valores/computer.jpeg);
+        background-size: cover;
+        background-position-x: -5rem;
+        
+ 
 }
+
+
+
 .clase4{
-    
+    background-image: url(/assets/img/nuestros-valores/microsoft.jpeg);
+    background-size: cover;
+    background-position-x: -5rem;
 }
-.clase5{
+/* .clase5{
     
-}
-.clase6{
+} */
+/* .clase6{
     
-}
-.clase7{
+} */
+/* .clase7{
     
 } */
 
@@ -53,15 +73,16 @@
 h1{
     color: #247b74;
     text-align: center;
-    font-weight: 100;
+    font-weight: 300;
     
 }
 
 
 p{
     color: rgb(213, 213, 213);
-    font-size: 1.3rem;
-    line-height: 1.8rem;
+    font-size: 2rem;
+    line-height: 1.4em;
     padding: 1rem;
     text-align: center;
+    font-weight: 300;
 } 
