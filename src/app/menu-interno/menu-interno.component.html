@@ -1,15 +1,41 @@
 <header>
-  <nav id="menu" class="menu">
-    <div class="container">
+    <nav id="menu" class="menu navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar bar1"></span>
+                    <span class="icon-bar bar2"></span>
+                    <span class="icon-bar bar3"></span>
+                </button>
+
+                <a routerLink="bienvenido" class="navbar-brand">
+
+                    <img src="assets/img/SVG/LogoMalebraBlanco.svg" alt="Malebra" width="190px">
+
+                </a>
+
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right navbar-uppercase">
+                    <li>
+                        <a routerLink="../productos">Productos</a>
+                    </li>
+                    <li>
+                        <a routerLink="../quienes-somos">Quienes Somos</a>
+                    </li>
 
 
-        <a routerLink="../bienvenidos">Productos</a>
-    </div>
-    
+                </ul>
+            </div>
 
 
-  </nav>
- 
+        </div>
+
+
+
+    </nav>
+
 
 </header>
-

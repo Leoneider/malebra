@@ -19,6 +19,8 @@ export class Index2Component implements OnInit {
           $("#menu").removeClass("bg-inverse");
       }
     });
+
+    
   
    }
 
@@ -32,3 +34,6 @@ export class Index2Component implements OnInit {
   }
 
 }
+
+
+

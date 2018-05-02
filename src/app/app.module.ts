@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { NgxGalleryModule } from 'ngx-gallery';
+
 
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
@@ -17,6 +19,9 @@ import { PatrocinadoresComponent } from './patrocinadores/patrocinadores.compone
 import { ContactoComponent } from './contacto/contacto.component';
 import { MenuInternoComponent } from './menu-interno/menu-interno.component';
 import { Index2Component } from './index2/index2.component';
+import { OfertasComponent } from './ofertas/ofertas.component';
+import { CatalogoComponent } from './catalogo/catalogo.component';
+import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
 
 
 @NgModule({
@@ -35,11 +40,16 @@ import { Index2Component } from './index2/index2.component';
     PatrocinadoresComponent,
     ContactoComponent,
     MenuInternoComponent,
-    Index2Component
+    Index2Component,
+    OfertasComponent,
+    CatalogoComponent,
+    QuienesSomosComponent
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxGalleryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
